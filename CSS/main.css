@@ -1,0 +1,153 @@
+/*Main*/
+
+body {
+    background-image: url(../Images/top-view-background-beautiful-white-grey-brown-cream-blue-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+main {
+   width: 470px;
+   height: 570px;
+   margin-top: 90px;
+   margin-left: calc((100% - 470px)/2);
+   border-radius: 8px;
+   background-color: white;
+}
+
+/*Header*/   
+
+#logoCon>* {
+    display: inline-block;
+    margin-left: 140px;
+    margin-top: 20px;
+    
+}
+
+#logo {
+    font-size: 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 48px;
+    vertical-align: top;
+    margin-left: -20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: rgb(33, 13, 150);
+}
+
+#reg {
+    margin-left: 180px;
+    margin-top: -10px;
+    vertical-align: top;
+}
+
+/*Fill form*/
+
+.leftAlign {
+    margin-left: 50px;
+    margin-bottom: 3px;
+}
+
+.inputHW {
+    height: 25px;
+    width: 360px;
+    border:none;
+    border-radius: 4px;
+    background-color: rgba(78, 104, 129, 0.13);
+}
+.fontSize {
+    font-size: 12px;
+    font-family: serif ;
+}
+
+#firstInputLine > * {
+    display: inline-block;
+    margin-top: -30px;   
+    width: 170px;
+    height: 25px;
+    border:none;
+    border-radius: 4px;
+    background-color: rgba(78, 104, 129, 0.13);
+}
+
+#inp1 {  
+    
+    margin-top: 15px;
+}
+
+#inp2 {  
+    margin-left: 10px;
+    margin-top: 15px;
+    border:none;
+    border-radius: 4px;
+    background-color: rgba(78, 104, 129, 0.13);
+    
+}
+
+#names > * {
+    display: inline-block;
+    /* vertical-align: 3px; */
+    font-size: 11px;
+    color: rgb(122, 113, 113);
+    /* margin-top: -30px; */
+    margin-block-start: 5px;
+}
+
+.rw {
+    color: black;
+}
+
+#bigName {
+     margin-bottom: -10px;
+}
+
+#lastName {
+    margin-left: 135px;  
+   
+}
+
+#adrN {
+    margin-bottom: 5px;
+}
+
+#dateOfBirth {
+    margin-bottom: 4px;
+    padding-top: 10px;
+}
+.dates {
+    width: 50px;
+    height: 25px;
+    margin-right: 10px;
+    border:none;
+    border-radius: 4px;
+    background-color: rgba(78, 104, 129, 0.13); 
+}
+
+#meth {
+    color: grey;
+    
+    font-size: 10px;
+    font-family: serif;
+    width: 365px;
+}
+button {
+    margin-top: 30px;
+    background-color: rgb(49, 99, 192);
+    color: white;
+    width: 365px; /*perziureti*/
+    height: 40px;
+    border:none;
+    border-radius: 4px;
+    font-family: serif;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(../Images/up-down-arrow-png-6.png);
+    background-size: 15px 25px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+  }
